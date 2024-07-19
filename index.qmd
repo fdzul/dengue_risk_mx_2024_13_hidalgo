@@ -22,6 +22,59 @@ mapview::mapviewOptions(default = TRUE,
 # [**Hotspots del Vector**]{style="font-size:2pt"}
 
 ::: panel-tabset
+
+### [**San Felipe Orizatlan**]{style="color:#990000"}
+```{r vector_orizatlan, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_13_hidalgo,
+                           locality = "San Felipe Orizatlab",
+                           cve_edo = "13",
+                           palette = rcartocolor::carto_pal,
+                           name = "SunsetDark",
+                           static_map = FALSE)
+```
+
+
+### [**Jaltocan**]{style="color:#990000"}
+```{r vector_jaltocan, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_13_hidalgo,
+                           locality = "Jaltocan",
+                           cve_edo = "13",
+                           palette = rcartocolor::carto_pal,
+                           name = "SunsetDark",
+                           static_map = FALSE)
+```
+
+### [**Huejutla de Reyes**]{style="color:#990000"}
+```{r vector_huejutla, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_13_hidalgo,
+                           locality = "Huejutla de Reyes",
+                           cve_edo = "13",
+                           palette = rcartocolor::carto_pal,
+                           name = "SunsetDark",
+                           static_map = FALSE)
+```
+
+### [**Chapulhuacan**]{style="color:#990000"}
+```{r vector_chapulhuacan, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_13_hidalgo,
+                           locality = "Chapulhuacan",
+                           cve_edo = "13",
+                           palette = rcartocolor::carto_pal,
+                           name = "SunsetDark",
+                           static_map = FALSE)
+```
+
+### [**Papatlatla**]{style="color:#990000"}
+```{r vector_papatla, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_13_hidalgo,
+                           locality = "Papatlatla",
+                           cve_edo = "13",
+                           palette = rcartocolor::carto_pal,
+                           name = "SunsetDark",
+                           static_map = FALSE)
+```
+
+
 :::
 
 
